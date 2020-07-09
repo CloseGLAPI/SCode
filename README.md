@@ -1,0 +1,2 @@
+# SCode
+CloseGL(a joke)
