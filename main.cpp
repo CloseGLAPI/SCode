@@ -32,7 +32,7 @@ int eulacheck()
 		delay(1);
 		fstream fout;
 		fout.open(".\\eula.txt",ios::app | ios::app);
-		fout<<"#Copyright ExecuitIF studios,all rights reserved!\n#You must agree eula(turn eula=false to eula=true) or you must delete all CloseGL files!\n#Do not remove any space or lines from this file!\n#Just turn eula=false to eula=true if you agree the eula.\n#eula address:\"www.github.com/CloseGLAPI/Scode/eula.md\"""\n\neula=false";
+		fout<<"#Copyright ExecuitIF studios,all rights reserved!\n#You must agree eula(turn eula=false to eula=true) or you must delete all CloseGL files!\n#Do not remove any space or lines from this file!\n#Just turn eula=false to eula=true if you agree the eula.\n#eula address:\"https://github.com/CloseGLAPI/SCode/blob/master/eula.md\"""\n\neula=false";
 		cout<<"[CloseGL.EULACHECK.ERROR]Created eula file,please agree eula!Find eula.txt for more information!\n";
 		cout<<"[CloseGL.EULACHECK.INFO]Coudln't read eula.txt,stopping......\n";
 		return -1;
@@ -87,7 +87,7 @@ int main(int argc, char** argv)
 	{
 		cout<<"\a\n\tUseage:CloseGL.exe [info1] [info2]\n";
 		cout<<"\n\tEG:CloseGL.exe -4 -9\n";
-		cout<<"\tGo www.github.com/CloseGLAPI/Scode/help.md for more information.\n\n";
+		cout<<"\tGo https://github.com/CloseGLAPI/SCode/blob/master/help.md for more information.\n\n";
 		pause;
 	}
 	//check eula
